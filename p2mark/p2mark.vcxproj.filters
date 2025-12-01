@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{1c335593-4e3c-484a-9da0-6477f063ec55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IO">
+      <UniqueIdentifier>{0ae758ea-826d-49f0-9593-07557b65c1ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{3cda801d-b9ec-48f5-9557-9e5204d2ee78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models">
+      <UniqueIdentifier>{29292a3d-9914-4b9b-9560-4beb2de8d446}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\Application.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\P2Validator.cpp">
+      <Filter>IO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\XmlReader.cpp">
+      <Filter>IO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\XmpWriter.cpp">
+      <Filter>IO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Utils.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\Application.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\P2Validator.hpp">
+      <Filter>IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\XmlReader.hpp">
+      <Filter>IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\XmpWriter.hpp">
+      <Filter>IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Utils.hpp">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\P2Exception.hpp">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Marker.hpp">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\AppInfo.hpp">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\AppMode.hpp">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ComGuard.hpp">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Constants.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ScopedTimer.hpp">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="p2mark.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="..\README.md" />
+    <None Include="..\THIRD-PARTY LICENSES.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\LICENSE.txt" />
+  </ItemGroup>
+</Project>

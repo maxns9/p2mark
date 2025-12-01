@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="p2mark::Application" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAZAAAAAABAZAAAAAAAgBAAAAEAAAAAACAABAEAgAAI=</HashCode>
+      <FileName>C:\Users\Princ\Documents\Visual Studio 2022\Projects\p2mark\src\Application.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="p2mark::P2Validator" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAADAAAAACAAAAAAABAAAAAAAAAAAAAAAAgQEAAAAA=</HashCode>
+      <FileName>C:\Users\Princ\Documents\Visual Studio 2022\Projects\p2mark\src\P2Validator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="p2mark::XmlReader" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAABCAAAACgAACMEAAAAQAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Princ\Documents\Visual Studio 2022\Projects\p2mark\src\XmlReader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="p2mark::XmpWriter" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAgAAAAUBAIAAgAAAEAAgBAAAAgEAAA=</HashCode>
+      <FileName>C:\Users\Princ\Documents\Visual Studio 2022\Projects\p2mark\src\XmpWriter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="p2mark::ComGuard" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAEAABAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Princ\Documents\Visual Studio 2022\Projects\p2mark\src\ComGuard.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="p2mark::P2Exception" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAACAQAAAAAAAAAAAIAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Princ\Documents\Visual Studio 2022\Projects\p2mark\src\P2Exception.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="p2mark::ScopedTimer" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgQAAAAAAAAAAAAAABAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>C:\Users\Princ\Documents\Visual Studio 2022\Projects\p2mark\src\ScopedTimer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="p2mark::Marker" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Princ\Documents\Visual Studio 2022\Projects\p2mark\src\Marker.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="p2mark::AppStats" Collapsed="true">
+    <Position X="2.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAABAAAAEAAQAAAAAAIAAAAAEAABAAAgA=</HashCode>
+      <FileName>C:\Users\Princ\Documents\Visual Studio 2022\Projects\p2mark\src\Application.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="p2mark::XmlNode" Collapsed="true">
+    <Position X="2.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Princ\Documents\Visual Studio 2022\Projects\p2mark\src\XmpWriter.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="p2mark::AppVersion" Collapsed="true">
+    <Position X="4" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAgAAAAACA=</HashCode>
+      <FileName>C:\Users\Princ\Documents\Visual Studio 2022\Projects\p2mark\src\AppInfo.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="p2mark::AppInfo" Collapsed="true">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAgAAAAgAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Princ\Documents\Visual Studio 2022\Projects\p2mark\src\AppInfo.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="p2mark::P2ValidationResult" Collapsed="true">
+    <Position X="0.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UAAAAAAAAEAAAAAEAAAAAABAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Princ\Documents\Visual Studio 2022\Projects\p2mark\src\P2Validator.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="p2mark::ClipValidationResult" Collapsed="true">
+    <Position X="2.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAACAAAEAAAAAAAAAAAAEAAAgA=</HashCode>
+      <FileName>C:\Users\Princ\Documents\Visual Studio 2022\Projects\p2mark\src\P2Validator.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="p2mark::P2ExceptionCode" Collapsed="true">
+    <Position X="4" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAACAACCAAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Princ\Documents\Visual Studio 2022\Projects\p2mark\src\P2Exception.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="p2mark::AppMode" Collapsed="true">
+    <Position X="0.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Princ\Documents\Visual Studio 2022\Projects\p2mark\src\AppMode.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
